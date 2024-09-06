@@ -14,21 +14,18 @@ class FoodDesign extends StatelessWidget {
               height: 80,
             ),
             Image.asset(
-              "asset/image/food.webp",
+              "asset/image/delivery.webp",
               height: 300,
               width: 300,
             ),
-            const Padding(
-              padding: EdgeInsets.all(10.0),
-              child: Text(
-                "Fast Delievery at \n your doorstep",
-                style: TextStyle(
-                  height: 1.2,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 35,
-                    color: Colors.white),
-              ),
-            ),
+             const Text(
+              "Fast Delievery at \n your doorstep",
+              style: TextStyle(
+                height: 1.2,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 35,
+                  color: Colors.white),
+                         ),
             const Padding(
               padding: EdgeInsets.all(10.0),
               child: Text(
